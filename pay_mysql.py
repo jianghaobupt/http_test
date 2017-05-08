@@ -4,7 +4,7 @@ import MySQLdb
 import re   
 
 # 打开数据库连接
-db=MySQLdb.connect(user='rnd',db='pay',passwd='P1WD#xyoP',host='192.168.10.216',charset='utf8',port=3306) 
+db=MySQLdb.connect(user='test',db='test',passwd='xxx',host='192.168.10.216',charset='utf8',port=3306) 
 cursor = db.cursor()
 
 #cursor.nextset()

@@ -1,8 +1,8 @@
 #coding=utf8
 import redis
-r = redis.Redis(host='192.168.11.137',port=6379,db=5)
+r = redis.Redis(host='192.168.1.1',port=6379,db=5)
 #print r.keys()
-r1 = redis.Redis(host='192.168.11.242',port=6379,db=5)
+r1 = redis.Redis(host='192.168.1.2',port=6379,db=5)
 #print r1.keys()
 
 print  r1.hgetall('MONTYLY_PHONEBILL_NOTIFY_KEY')['MONTHLY_PHONEBILL_NOTIFY']
