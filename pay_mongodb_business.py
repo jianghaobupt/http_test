@@ -1,8 +1,7 @@
 #coding=utf8
 
 import pymongo
-#client = pymongo.MongoClient("192.168.11.95", 27017)
-client = pymongo.MongoClient("192.168.11.125", 30000)
+client = pymongo.MongoClient("192.168.1.1", 30000)
 db = client.pay 
 db1 = client.oauth 
 
